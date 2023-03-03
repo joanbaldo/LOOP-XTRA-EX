@@ -9,6 +9,27 @@ for (let i=21 ; i<= 34 ;i++){
 */
 //2-  Sumar los números del 1 al 10 y mostrar el resultado en la consola.
 
+// for(let i = 1; (i>= 1) && (i<=10) ; i++) {
+//     console.log(i+i)
+// }
+//
+var miArray=new Array();
+ 
+// bucle del 1 al 5
+for(var i=1;i<=5;i++)
+{
+    var name = prompt("Introduce un numero");
+    miArray.push(name);
+    console.log(name);
+}
+document.write(miArray);
+
+
+// for (let i = 0; i <=10; i++) {
+    //        console.log(i);
+    // }
+
+
 //3-  Dado un array de números, imprimir en la consola la suma de todos los números.
 
 //4- Imprimir los números del 1 al 10 en la consola,pero solo los pares.
@@ -47,7 +68,7 @@ for (let i= 0; i<=20 ; i++){
         
     }
 }
-
+// NOTA: Hay que colocar la más restrictiva antes.
 /*
 for (let i= 0; i<=20 ; i++){
     if(i>0 && i%3==0){
