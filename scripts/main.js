@@ -18,7 +18,7 @@ for (let i=21 ; i<= 34 ;i++){
 
     for (let i= 0; i<=10; i++){
     if (i>0 && i%2==0){
-        console.log(i)
+        console.log('EX4 - '+i)
     } 
 }
  
@@ -29,11 +29,39 @@ for (let i=21 ; i<= 34 ;i++){
 
 for (let i= 0; i<=10 ; i++){
     if(i>0 && i%2==0){
-        console.log(i-1)
+        console.log('EX5 - '+ (i-1))
     }
 }
 
+
+
 //6- Imprimir los números del 1 al 20 en la consola,pero para los múltiplos de 3 imprimir "Fizz",para los múltiplos de 5 imprimir "Buzz" y para los múltiplos de ambos imprimir "FizzBuzz".
+
+for (let i= 0; i<=20 ; i++){
+     if (i>0 && i%3==0 && i%5==0) {
+        console.log('('+i+')'+'Fizz-Buzz')
+    } else if(i>0 && i%3==0){
+        console.log('('+i+')'+'Fizz')
+    } else if (i>0 && i%5==0){
+        console.log('('+i+')'+'Buzz')
+        
+    }
+}
+
+/*
+for (let i= 0; i<=20 ; i++){
+    if(i>0 && i%3==0){
+        console.log('('+i+')'+'Fizz')
+    } else if (i>0 && i%5==0){
+        console.log('('+i+')'+'Buzz')
+    } else if (i>0 && i%3==0 && i%5==0) {
+        console.log('('+i+')'+'Fizz-Buzz')
+    }
+        
+    }
+*/
+
+
 
 //7-  Dado un array de números, imprimir en la   consola solo los números pares.
 
