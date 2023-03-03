@@ -13,16 +13,18 @@ for (let i=21 ; i<= 34 ;i++){
 //     console.log(i+i)
 // }
 //
-var miArray=new Array();
+// let longArray = prompt ("Especifique longitud del array")
+// let miArray = []
  
-// bucle del 1 al 5
-for(var i=1;i<=5;i++)
-{
-    var name = prompt("Introduce un numero");
-    miArray.push(name);
-    console.log(name);
-}
-document.write(miArray);
+// // bucle del 1 al 5
+// for(var i=1;i<=5;i++)
+// {
+//     // var name = prompt("Introduce un numero");
+//     miArray.push(name);
+//     console.log(name);
+// }
+// document.write(miArray);
+
 
 
 // for (let i = 0; i <=10; i++) {
@@ -31,6 +33,15 @@ document.write(miArray);
 
 
 //3-  Dado un array de números, imprimir en la consola la suma de todos los números.
+//(AMPLIADA)//
+//Paso 1: Pedir longitud array por prompt
+//Paso 2: Rellenar valores array
+//Paso 3: Sumar valores array
+
+let longArray = prompt ("Especifique longitud array")
+console.log(longArray)
+
+
 
 //4- Imprimir los números del 1 al 10 en la consola,pero solo los pares.
 
