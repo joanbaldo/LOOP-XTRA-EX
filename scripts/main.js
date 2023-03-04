@@ -43,10 +43,12 @@ let longArray = prompt ("Especifique longitud array")
 console.log(longArray)
 //2
 const miArray = []
-for (let i = 0; i <= longArray; i++) {
-    const miArray = miArray[i];
-    
+for (let i = 0; i < longArray; i++) {
+    miArray.push(i)
 }
+console.log(miArray)
+//3
+
 
 
 
