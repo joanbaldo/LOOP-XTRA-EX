@@ -38,8 +38,16 @@ for (let i=21 ; i<= 34 ;i++){
 //Paso 2: Rellenar valores array
 //Paso 3: Sumar valores array
 
+//1
 let longArray = prompt ("Especifique longitud array")
 console.log(longArray)
+//2
+const miArray = []
+for (let i = 0; i <= longArray; i++) {
+    const miArray = miArray[i];
+    
+}
+
 
 
 
