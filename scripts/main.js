@@ -2,28 +2,31 @@
 
 ////EJERCICICIOS BUCLES
 // 1- Imprimir los números del 21 al 34 en la consola.
-/*
+console.log('*************EJERCICIO 1***************')
+
 for (let i=21 ; i<= 34 ;i++){
     console.log (`Este es el numerinchi Nº${i}`)
 }
-*/
-//2-  Sumar los números del 1 al 10 y mostrar el resultado en la consola.
 
-// for(let i = 1; (i>= 1) && (i<=10) ; i++) {
-//     console.log(i+i)
-// }
-//
-// let longArray = prompt ("Especifique longitud del array")
-// let miArray = []
- 
-// // bucle del 1 al 5
-// for(var i=1;i<=5;i++)
-// {
-//     // var name = prompt("Introduce un numero");
-//     miArray.push(name);
-//     console.log(name);
-// }
-// document.write(miArray);
+//2-  Sumar los números del 1 al 10 y mostrar el resultado en la consola.
+console.log('*************EJERCICIO 2***************')
+let longArray = prompt ("Especifique longitud array")
+console.log(longArray)
+//2
+const miArray = []
+for (let i = 0; i < 11; i++) {
+    miArray.push(i)
+}
+console.log(miArray)
+//3
+let sumaArray =0
+
+for (let i = 0; i < miArray.length; i++) {
+    sumaArray += miArray[i]
+}
+console.log('La suma del ARRAY creado es: '+sumaArray)
+
+document.write(miArray);
 
 
 
@@ -39,20 +42,21 @@ for (let i=21 ; i<= 34 ;i++){
 //Paso 3: Sumar valores array
 
 //1
-let longArray = prompt ("Especifique longitud array")
+console.log('*************EJERCICIO 3***************')
+let longArray2 = prompt ("Especifique longitud array")
 console.log(longArray)
 //2
-const miArray = []
-for (let i = 0; i < longArray; i++) {
+const miArray2 = []
+for (let i = 0; i < longArray2; i++) {
     miArray.push(i)
 }
-console.log(miArray)
+console.log(miArray2)
 //3
-let sumaArray =0
-for (let i = 0; i < miArray.length; i++) {
-    sumaArray += miArray[i]
+let sumaArray2 =0
+for (let i = 0; i < miArray2.length; i++) {
+    sumaArray2 += miArray2[i]
 }
-console.log('La suma del ARRAY creado es: '+sumaArray)
+console.log('La suma del ARRAY creado es: '+sumaArray2)
 
 
 
