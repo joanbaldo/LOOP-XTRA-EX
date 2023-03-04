@@ -48,7 +48,11 @@ for (let i = 0; i < longArray; i++) {
 }
 console.log(miArray)
 //3
-
+let sumaArray =0
+for (let i = 0; i < miArray.length; i++) {
+    sumaArray += miArray[i]
+}
+console.log('La suma del ARRAY creado es: '+sumaArray)
 
 
 
